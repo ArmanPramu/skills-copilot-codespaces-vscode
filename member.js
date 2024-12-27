@@ -1,3 +1,4 @@
-function skillMember() {
-  console.log("skillMember");
+function skillsMember() {
+  // Access the current member's skills
+  return this.skills;
 }
